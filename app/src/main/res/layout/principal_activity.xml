@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtProcessoPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:hint="Processo"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txtSituacaoPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_add_alert_black_24dp"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:hint="Situação"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txtEtapaPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_check_black_24dp"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:hint="Etapa"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txtMensagemPA"
+                android:layout_width="314dp"
+                android:layout_height="72dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_chat_black_24dp"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:hint="Mensagem"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txtLinkPA"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_link_black_24dp"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:hint="Link"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/btnSair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapesignup"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="Escolher Imagem"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnUpload"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapelogin"
+                android:editable="false"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="Fazer Upload de Arquivo" />
+
+            <Button
+                android:id="@+id/btnSair1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapelogin"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="Sair" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_file_upload_black_24dp" />
+
+
+</LinearLayout>

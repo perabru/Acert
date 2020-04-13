@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841857986055",
+    "firebase_url": "https://acert-64536.firebaseio.com",
+    "project_id": "acert-64536",
+    "storage_bucket": "acert-64536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841857986055:android:87011f9fd4306ce1e084a2",
+        "android_client_info": {
+          "package_name": "com.brunocom.acert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841857986055-o6g1dt3t2ssbc60hr1ch9cg1n1so96f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brunocom.acert",
+            "certificate_hash": "6d3032270c6c0ef9f4bda6fd809e1e645f3a680b"
+          }
+        },
+        {
+          "client_id": "841857986055-mg88h7kuac8agsurpti1kthr5a4q0e9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1t7vkNm4pk4EvIVlsvtc6wjcxuu1cNCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841857986055-mg88h7kuac8agsurpti1kthr5a4q0e9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

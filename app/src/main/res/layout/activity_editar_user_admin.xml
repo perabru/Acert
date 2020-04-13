@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/txtNomeEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Nome"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/txtEmailEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/idUsuarioEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5dp"
+
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_videogame_asset_black_24dp"
+        android:drawablePadding="10dp"
+        android:editable="false"
+        android:visibility="invisible"
+        android:hint="ID"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/telefoneEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Telefone"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/processoEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Processo"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/situacaoEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_add_alert_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Situação"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/etapaEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_check_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Etapa"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/mensagemEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_chat_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Mensagem"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/txtLinkEUAA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_link_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Link"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Gravar Mudanças" />
+
+
+</LinearLayout>
